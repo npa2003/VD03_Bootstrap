@@ -1,0 +1,76 @@
+:root{
+    --pad:5px;
+}
+.card{
+    width: 300px;
+    height: 700px;
+    background-color: burlywood;
+    border-radius: 10px;
+    padding: var(--pad);
+    transition: 2s;
+}
+.card:hover{
+    background-color: aqua;
+}
+.foto{
+    height: 150px;
+    padding: var(--pad);
+}
+img{
+    height: 150px;
+    position: sticky;
+    /*left: 15%;*/
+    border-radius: 15px;
+    transition: 1s;
+}
+img:hover{
+    height: 300px;
+    transition: 1s;
+}
+.fio{
+    height: 50px;
+    align-content: flex-start;
+    /*padding: var(--pad);*/
+}
+h3{
+    color: royalblue;
+}
+.mail::before{
+    content: "e-mail: ";
+    color: olivedrab;
+}
+.db::before{
+    content: "Дата рождения:";
+    color: olivedrab;
+}
+.describe{
+    padding: var(--pad);
+    align-content: ;
+}
+.describe::before{
+    content: "Справка: ";
+    color: crimson;
+}
+table{
+    /*width: 600px;*/
+    /*height: 200px;*/
+    /*font-family: "Comic Sans MS";*/
+    /*background-color: royalblue;*/
+    /*border-style: solid;*/
+    /*border-color: crimson;*/
+    /*border-width: 2px;*/
+}
+tr{
+    /*background-color: royalblue;*/
+    /*border-style: solid;*/
+    /*border-color: crimson;*/
+    /*border-width: 2px;*/
+}
+td{
+    /*background-color: aqua;*/
+    /*border-style: solid;*/
+    /*border-color: crimson;*/
+    /*border-width: 1px;*/
+    text-align-last: center;
+    padding: var(--pad);
+}
