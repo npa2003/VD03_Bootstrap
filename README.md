@@ -1,5 +1,13 @@
 # VD03 работа с Bootstrap
 
+# Домашнее задание в файле VD03_DZ.html
+
+---
+Дополнительные материалы к уроку
+---
+
+
+
 
 Шрифты css - https://www.w3.org/Style/Examples/007/fonts.ru.html
 
